@@ -1,0 +1,160 @@
+[        Platform] [  LOG] [04:01:37]  Openplanet for Trackmania Next x64
+[        Platform] [ TRAC] [04:01:37]  (c) Melissa Geels 2016 - 2024
+[        Platform] [ TRAC] [04:01:37]  https://openplanet.dev/
+[        Platform] [  LOG] [04:01:37]  Openplanet starting on 2025-12-19
+[        Platform] [  LOG] [04:01:37]  Engine: 2025-07-04 13:15:08
+[        Platform] [  LOG] [04:01:37]  Openplanet: 1.28.0 (next, Public, 2025-08-16)
+[        Platform] [ TRAC] [04:01:37]  Identifier: 0x000000006867C5CC
+[        Platform] [ TRAC] [04:01:37]  Process ID: 1240
+[        Platform] [  LOG] [04:01:37]  Setting up hook callbacks...
+[        Platform] [  LOG] [04:01:37]  Semi entry initialization...
+[        Platform] [  LOG] [04:01:37]  Update branch: default
+[        Platform] [  LOG] [04:01:37]  Requesting app config with timeout 5000...
+[        Platform] [  LOG] [04:01:39]  Finding game window..
+[        Platform] [ TRAC] [04:01:39]  Window handle: 000201b0 ("Trackmania")
+[           Hooks] [ WARN] [04:01:39]  Unable to open ntdll section (error C000003A, this can happen when running under Wine on Linux)
+[           Hooks] [  LOG] [04:01:39]  Alternative ntdll load was successful
+[        Platform] [  LOG] [04:01:39]  Initializing meta...
+[        Platform] [  LOG] [04:01:39]  Did not find update to install.
+[     WebServices] [  LOG] [04:01:47]  NadeoServices account ID: a694d39f-86c2-4429-87bb-f8d505efa3b6
+[        Platform] [  LOG] [04:01:48]  Loop entry initialization...
+[        Platform] [  LOG] [04:01:48]  Hooking WndProc...
+[        Platform] [ TRAC] [04:01:48]  Initializing sockets...
+[        Platform] [ TRAC] [04:01:48]  Adding user library path...
+[        Platform] [  LOG] [04:01:48]  Initializing audio...
+[           Audio] [  LOG] [04:01:48]  Setting playback device to "PulseAudio Output"
+[        Platform] [  LOG] [04:01:48]  Initializing scripting...
+[    ScriptEngine] [  LOG] [04:01:49]  Registered 2647 classes
+[        Platform] [ TRAC] [04:01:49]  Writing type definitions to file: "C:/users/steamuser/OpenplanetNext/Openplanet.h"
+[        Platform] [  LOG] [04:01:49]  Writing json to file: "C:/users/steamuser/OpenplanetNext/OpenplanetNext.json"
+[        Platform] [  LOG] [04:01:49]  Dumping Openplanet documentation to C:/users/steamuser/OpenplanetNext/OpenplanetCore.json
+[        Platform] [  LOG] [04:01:49]  Initializing overlay...
+[         Overlay] [  LOG] [04:01:49]  Loading user style: Z:/home/burrs/.local/share/Steam/steamapps/common/Trackmania/Openplanet/DefaultStyle.toml
+[        Platform] [  LOG] [04:01:49]  Beginning script engine...
+[    ScriptEngine] [  LOG] [04:01:49]  Adding plugins...
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded plugin 'NadeoServices' (version 1.0)
+[    ScriptEngine] [ TRAC] [04:01:49]  MLHook.op/:/Logging.as (29, 1) : INFO : Compiling void RenderLogsWindow()
+[    ScriptEngine] [ WARN] [04:01:49]  MLHook.op/:/Logging.as (38, 40) : WARN : Signed/Unsigned mismatch
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded zipped plugin 'MLHook' (version 0.5.4)
+[    ScriptEngine] [ TRAC] [04:01:49]  MLFeedRaceData.op/:/MLFeed_ExportShared.as (279, 9) : INFO : Compiling int PlayerCpInfo::get_RoyalTA_SegmentFinishedAt(int) const
+[    ScriptEngine] [ WARN] [04:01:49]  MLFeedRaceData.op/:/MLFeed_ExportShared.as (280, 44) : WARN : Signed/Unsigned mismatch
+[    ScriptEngine] [ TRAC] [04:01:49]  MLFeedRaceData.op/:/Main.as (363, 9) : INFO : Compiling int _PlayerCpInfo::get_RoyalTA_SegmentFinishedAt(int) const
+[    ScriptEngine] [ WARN] [04:01:49]  MLFeedRaceData.op/:/Main.as (364, 44) : WARN : Signed/Unsigned mismatch
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded zipped plugin 'MLFeedRaceData' (version 0.6.3)
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded zipped plugin 'UltimateMedalsExtended' (version 1.7)
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded plugin 'Camera' (version 1.0)
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded plugin 'EditorDeveloper' (version 1.0)
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded plugin 'Finetuner' (version 1.0)
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded plugin 'VehicleState' (version 1.0)
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded zipped plugin 'SplitSpeeds' (version 2.2.0)
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded plugin 'InfiniteEmbedSize' (version 1.0)
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded zipped plugin 'ak-hints' (version 0.1.9)
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded plugin 'UsefulInformation' (version 1.0)
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded plugin 'Stats' (version 1.0)
+[    ScriptEngine] [ TRAC] [04:01:49]  Loaded plugin 'ClassicMenu' (version 1.1)
+[    ScriptEngine] [ WARN] [04:01:49]  Couldn't find optional plugin dependency "ticker" while loading plugin "ChampionMedals"
+[    ScriptEngine] [ TRAC] [04:01:50]  Loaded zipped plugin 'ChampionMedals' (version 1.21)
+[    ScriptEngine] [ TRAC] [04:01:50]  Loaded zipped plugin 'WarriorMedals' (version 1.10.2)
+[    ScriptEngine] [ TRAC] [04:01:50]  Loaded plugin 'Controls' (version 1.0)
+[    ScriptEngine] [ TRAC] [04:01:50]  Loaded plugin 'PluginManager' (version 1.0)
+[    ScriptEngine] [ TRAC] [04:01:50]  Loaded zipped plugin 'Gear-Change-Indicator' (version 1.3)
+[    ScriptEngine] [ TRAC] [04:01:50]  Loaded zipped plugin 'Copium' (version 1.3.2)
+[    ScriptEngine] [ TRAC] [04:01:50]  Loaded plugin 'BigDecor' (version 1.0)
+[    ScriptEngine] [ TRAC] [04:01:50]  Loaded plugin 'Discord' (version 1.0)
+[    ScriptEngine] [  LOG] [04:01:50]  Adding legacy plugins...
+[    ScriptEngine] [ TRAC] [04:01:50]  Loaded legacy plugin 'Plugin_MapAudioFix' (version 1.0)
+[    ScriptEngine] [  LOG] [04:01:50]  Plugins added!
+[        Platform] [  LOG] [04:01:50]  Initialized!
+[   ScriptRuntime] [ERROR] [04:01:50] [MLFeedRaceData]  DEPRECATED: awaitable.WithRunContext() is no longer valid. Use Meta::StartWithRunContext instead.
+[   ScriptRuntime] [ERROR] [04:01:50] [MLFeedRaceData]  DEPRECATED: awaitable.WithRunContext() is no longer valid. Use Meta::StartWithRunContext instead.
+[   ScriptRuntime] [ TRAC] [04:01:50] [WarriorMedals]  reading C:/users/steamuser/OpenplanetNext/PluginStorage/WarriorMedals/hidden.json
+[   ScriptRuntime] [ WARN] [04:01:50] [WarriorMedals]  Unable to open json file 'C:/users/steamuser/OpenplanetNext/PluginStorage/WarriorMedals/hidden.json'
+[   ScriptRuntime] [ TRAC] [04:01:50] [WarriorMedals]  reading C:/users/steamuser/OpenplanetNext/PluginStorage/WarriorMedals/read.json
+[   ScriptRuntime] [ TRAC] [04:01:50] [PluginManager]  Checking for plugin updates..
+[   ScriptRuntime] [ TRAC] [04:01:50] [Copium]  registering UME medals
+[   ScriptRuntime] [ TRAC] [04:01:50] [Copium]  best.json not found, try respawning!
+[   ScriptRuntime] [  LOG] [04:01:50] [Discord]  Initializing Discord...
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_ListUids_Pair
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_ListUids_Clear
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_ListUids_IsReqActive
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_ListUids_SliceInfo
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_ListUids_OrigMapIx
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_ListUids_UidsResp
+[   ScriptRuntime] [ TRAC] [04:01:50] [NadeoServices]  Waiting for existing token request to finish
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_RaceStats_PlayerCP
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_RaceStats_PlayerLeft
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_RaceStats_PlayerRaceTimes
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_RaceStats_PlayerInfo
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_RaceStats_MatchKeyPair
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_RaceStats_COTDQualiInfo
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_RaceStats_LapsNb
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_RaceStats_Warmup
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_RaceStats_PlayerRaceProgression
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_MLFeedKOs_PlayerStatus
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_MLFeedKOs_MatchKeyPair
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_TeamsFeed_MatchKeyPair
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: TMGame_Record_NewRecord
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_GhostData
+[   ScriptRuntime] [ TRAC] [04:01:50] [MLFeedRaceData]  registered MLHook event for type: MLHook_Event_GhostData_Removed
+[   ScriptRuntime] [ TRAC] [04:01:50] [WarriorMedals]  getting token 1...
+[   ScriptRuntime] [ TRAC] [04:01:51] [PluginManager]  No plugin updates found!
+[   ScriptRuntime] [ TRAC] [04:01:52] [NadeoServices]  Requesting token for audience "NadeoLiveServices"
+[   ScriptRuntime] [ TRAC] [04:01:52] [NadeoServices]  Got token for audience "NadeoLiveServices"
+[   ScriptRuntime] [ TRAC] [04:01:55] [WarriorMedals]  got token 1, getting token 2...
+[   ScriptRuntime] [ TRAC] [04:01:57] [WarriorMedals]  configs: 4
+[   ScriptRuntime] [ TRAC] [04:01:57] [WarriorMedals]  got token 2
+[   ScriptRuntime] [ TRAC] [04:01:57] [WarriorMedals]  registering UME medal
+[   ScriptRuntime] [ TRAC] [04:01:57] [WarriorMedals]  getting all map infos
+[   ScriptRuntime] [ TRAC] [04:01:59] [WarriorMedals]  next request: 2025-12-19 20:00:00
+[   ScriptRuntime] [ TRAC] [04:01:59] [WarriorMedals]  got all map infos after 2005ms
+[   ScriptRuntime] [ TRAC] [04:01:59] [WarriorMedals]  reading PBs from file
+[   ScriptRuntime] [ TRAC] [04:01:59] [WarriorMedals]  read all PBs (212) after 4ms
+[   ScriptRuntime] [ TRAC] [04:01:59] [WarriorMedals]  getting campaign indices
+[   ScriptRuntime] [ TRAC] [04:02:02] [WarriorMedals]  getting campaign indices done after 2849ms
+[   ScriptRuntime] [ TRAC] [04:02:02] [WarriorMedals]  building campaigns
+[   ScriptRuntime] [ TRAC] [04:02:02] [WarriorMedals]  building campaigns done after 25ms
+[   ScriptRuntime] [ TRAC] [04:02:02] [WarriorMedals]  sorting campaigns and maps
+[   ScriptRuntime] [ TRAC] [04:02:02] [WarriorMedals]  sorting campaigns and maps done after 33ms
+[   ScriptRuntime] [ TRAC] [04:02:02] [WarriorMedals]  setting totals
+[   ScriptRuntime] [ TRAC] [04:02:02] [WarriorMedals]  setting totals done after 9ms
+[        Platform] [  LOG] [04:03:51]  Game is cleanly shutting down
+[        Platform] [  LOG] [04:03:51]  Saving settings
+[           Audio] [  LOG] [04:03:51]  Shutting down audio engine
+[    ScriptEngine] [  LOG] [04:03:51]  Stopping script engine
+[    ScriptEngine] [ TRAC] [04:03:51]  Unloading plugin 'Plugin_MapAudioFix'
+[    ScriptEngine] [ TRAC] [04:03:51]  Unloading plugin 'Discord'
+[    ScriptEngine] [ TRAC] [04:03:51]  Unloading plugin 'BigDecor'
+[    ScriptEngine] [ TRAC] [04:03:51]  Unloading plugin 'Copium'
+[    ScriptEngine] [ TRAC] [04:03:51]  Unloading plugin 'Gear-Change-Indicator'
+[    ScriptEngine] [ TRAC] [04:03:51]  Unloading plugin 'PluginManager'
+[    ScriptEngine] [ TRAC] [04:03:51]  Unloading plugin 'Controls'
+[    ScriptEngine] [ TRAC] [04:03:51]  Unloading plugin 'WarriorMedals'
+[    ScriptEngine] [ TRAC] [04:03:51]  Unloading plugin 'ChampionMedals'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'ClassicMenu'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'Stats'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'UsefulInformation'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'ak-hints'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'InfiniteEmbedSize'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'SplitSpeeds'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'VehicleState'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'Finetuner'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'EditorDeveloper'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'Camera'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'UltimateMedalsExtended'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'MLFeedRaceData'
+[   ScriptRuntime] [ TRAC] [04:03:52] [MLFeedRaceData]  _Unload, unloading hooks and removing injected ML
+[   ScriptRuntime] [ TRAC] [04:03:52] [MLFeedRaceData]  UnregisteredMLHook objects (6) for types: MLHook_Event_ListUids_SliceInfo, MLHook_Event_ListUids_Pair, MLHook_Event_ListUids_Clear, MLHook_Event_ListUids_OrigMapIx, MLHook_Event_ListUids_IsReqActive, MLHook_Event_ListUids_UidsResp
+[   ScriptRuntime] [ TRAC] [04:03:52] [MLFeedRaceData]  UnregisteredMLHook objects (9) for types: MLHook_Event_RaceStats_PlayerCP, MLHook_Event_RaceStats_PlayerLeft, MLHook_Event_RaceStats_PlayerRaceTimes, MLHook_Event_RaceStats_PlayerInfo, MLHook_Event_RaceStats_MatchKeyPair, MLHook_Event_RaceStats_COTDQualiInfo, MLHook_Event_RaceStats_LapsNb, MLHook_Event_RaceStats_Warmup, MLHook_Event_RaceStats_PlayerRaceProgression
+[   ScriptRuntime] [ TRAC] [04:03:52] [MLFeedRaceData]  UnregisteredMLHook objects (2) for types: MLHook_Event_MLFeedKOs_PlayerStatus, MLHook_Event_MLFeedKOs_MatchKeyPair
+[   ScriptRuntime] [ TRAC] [04:03:52] [MLFeedRaceData]  UnregisteredMLHook objects (1) for types: MLHook_Event_TeamsFeed_MatchKeyPair
+[   ScriptRuntime] [ TRAC] [04:03:52] [MLFeedRaceData]  UnregisteredMLHook objects (1) for types: TMGame_Record_NewRecord
+[   ScriptRuntime] [ TRAC] [04:03:52] [MLFeedRaceData]  UnregisteredMLHook objects (2) for types: MLHook_Event_GhostData, MLHook_Event_GhostData_Removed
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'MLHook'
+[    ScriptEngine] [ TRAC] [04:03:52]  Unloading plugin 'NadeoServices'
+[    ScriptEngine] [  LOG] [04:03:52]  Releasing script context
+[        Platform] [  LOG] [04:03:55]  Saving settings
+[           Audio] [  LOG] [04:03:55]  Shutting down audio engine
+[    ScriptEngine] [  LOG] [04:03:55]  Stopping script engine
+[    ScriptEngine] [  LOG] [04:03:55]  Releasing script context
+[        Platform] [  LOG] [04:03:55]  Terminating Openplanet..
+[           Audio] [  LOG] [04:03:55]  Shutting down audio engine
