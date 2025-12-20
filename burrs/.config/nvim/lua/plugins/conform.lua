@@ -30,6 +30,7 @@ return {
 				clojure = { "zprint" },
 				-- Currently nothing for this
 				hyprlang = { "hyprls" },
+				nix = { "nixfmt" },
 			},
 		})
 	end,
