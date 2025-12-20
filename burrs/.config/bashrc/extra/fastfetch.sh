@@ -1,4 +1,2 @@
 alias neofetch='fastfetch'
-alias nf='fastfetch'
-alias pf='fastfetch'
-alias ff='fastfetch'
+alias ff='screenfetch -N | tte'

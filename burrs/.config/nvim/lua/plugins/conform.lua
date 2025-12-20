@@ -13,12 +13,23 @@ return {
 	},
 	opts = {},
 	config = function()
+		vim.filetype.add({
+			extension = { rasi = "rasi" },
+			pattern = {
+				[".*/waybar/config"] = "jsonc",
+				[".*/mako/config"] = "dosini",
+				[".*/kitty/*.conf"] = "bash",
+				[".*/hypr/.*%.conf"] = "hyprlang",
+			},
+		})
 		require("conform").setup({
 			formatters_by_ft = {
 				lua = { "stylua" },
 				python = { "isort", "black" },
 				javascript = { "prettier", stop_after_first = true },
 				clojure = { "zprint" },
+				-- Currently nothing for this
+				hyprlang = { "hyprls" },
 			},
 		})
 	end,

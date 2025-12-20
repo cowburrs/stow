@@ -64,16 +64,19 @@ return {
 					F12 = "<F12>",
 				},
 			},
+		},
+		config = function()
+			local wk = require("which-key")
+
 			-- Document existing key chains
-			spec = {
+			wk.add({
 				{ "<leader>s", group = "[S]earch" },
 				{ "<leader>?", group = "Which Key[?]" },
 				{ "<leader>t", group = "[T]oggle" },
 				{ "<leader>y", group = "[Y]ank" },
 				{ "<leader>h", group = "Git [H]unk", mode = { "n", "v" } },
-				-- { "z", group = "[z] Folds and Marks", mode = { "v" } },
-			},
-		},
+			})
+		end,
 	},
 }
 -- vim: ts=2 sts=2 sw=2 et
