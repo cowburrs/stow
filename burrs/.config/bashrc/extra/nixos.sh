@@ -19,7 +19,7 @@ sudo nixos-rebuild switch --impure --flake ~/nixos#laptop
 }
 
 ngc() {
-nix-env --delete-generations +3
+# nix-env --delete-generations +3
 sudo nix-collect-garbage -d
 }
 

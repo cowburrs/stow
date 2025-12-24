@@ -26,7 +26,8 @@
     ],
     "modules-right": [
 		"backlight",
-        "pulseaudio",
+        "pulseaudio#input",
+        "pulseaudio#output",
         "network",
         "memory",
         "temperature",
@@ -133,22 +134,28 @@
         "tooltip-format": "{ifname}: {ipaddr}"
     },
 
-    "pulseaudio": {
-        //"scroll-step": 1,
-        "format": "{icon}  {volume}%",
-        "format-bluetooth": "{icon}  {volume}%",
-        "format-muted": "",
-        "format-icons": {
-            "headphones": "",
-            "handsfree": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", ""]
-        },
-        "on-click": "pavucontrol"
-    },
+	"pulseaudio#input": {
+	"format-source": " {volume}%",
+	"format-source-muted": "  off",
+	"format": "{format_source}",
+	"scroll-step": 1,
+	"smooth-scrolling-threshold": 1,
+	"on-click": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
+	"on-click-right": "wpctl set-volume @DEFAULT_AUDIO_SOURCE@ 100%",
+	"on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SOURCE@ 50%+",
+	"on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SOURCE@ 50%- --limit 1.0",
+	},
+	"pulseaudio#output": {
+	"format": "{icon}  {volume}%",
+	"format-muted": " off",
+	"format-icons": {
+	"default": ["", "", ""]
+	},
+	"max-volume": 100,
+	"scroll-step": 10,
+	"smooth-scrolling-threshold": 1,
+	"on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+	}, 
 
     "temperature": {
       "critical-threshold": 80,

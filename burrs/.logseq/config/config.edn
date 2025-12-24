@@ -10,5 +10,6 @@
 ;;   {:shortcuts {:ui/toggle-theme "t z"
 ;;                :ui/toggle-brackets "t b"}}
 
-{:shortcuts {:editor/move-block-down ["alt+j"],
-             :editor/move-block-up ["alt+k"]}}
+{:shortcuts {:editor/move-block-down ["alt+j"]
+ :editor/move-block-up ["alt+k"]
+ :auto-complete/complete ["enter" "ctrl+y"]}}
