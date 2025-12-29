@@ -31,6 +31,8 @@ return {
 				-- Currently nothing for this
 				hyprlang = { "hyprls" },
 				nix = { "nixfmt" },
+				json = { "jsonfmt" },
+				jsonc = { "biome" },
 			},
 		})
 	end,
