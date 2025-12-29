@@ -34,7 +34,8 @@
         "custom/keyboard-layout",
         "battery",
         "clock#date",
-        "clock#time"
+		"custom/weather",
+        "clock#time",
     ],
 
 
@@ -125,6 +126,14 @@
             "critical": 90
         }
     },
+
+	"custom/weather": {
+		"format": "{}°",
+		"tooltip": true,
+		"interval": 3600,
+		"exec": "wttrbar",
+		"return-type": "json"
+	},
 
     "network": {
         "interval": 5,

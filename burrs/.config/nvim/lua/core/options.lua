@@ -74,9 +74,9 @@ vim.o.scrolloff = 10 -- Minimal number of screen lines to keep above and below t
 
 -- See `:help 'confirm'`
 vim.o.confirm = true
-vim.opt_local.tabstop = 4
-vim.opt_local.shiftwidth = 4
--- vim.opt_local.softtabstop = 2
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.softtabstop = 2
 -- vim.opt_local.expandtab = true
 -- vim.o.autochdir = true
 -- vim: ts=2 sts=2 sw=2 et

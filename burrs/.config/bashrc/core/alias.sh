@@ -15,6 +15,7 @@ alias grep='grep --color=auto'
 alias discord='discord --enable-features=UseOzonePlatform --ozone-platform=wayland'
 alias systemd-analyse='systemd-analyze'
 alias cd..='cd ..'
+alias hidrawchmod='sudo chmod a+rw /dev/hidraw3'
 
 # -----------------------------------------------------
 # Window Managers

@@ -36,16 +36,7 @@
       },
       "Bindings": {
         "TipActivationThreshold": 1.0,
-        "TipButton": {
-          "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
-          "Settings": [
-            {
-              "Property": "Binding",
-              "Value": "Tip"
-            }
-          ],
-          "Enable": true
-        },
+        "TipButton": null,
         "EraserActivationThreshold": 1.0,
         "EraserButton": {
           "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
@@ -59,35 +50,107 @@
         },
         "PenButtons": [
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
             "Settings": [
               {
-                "Property": "Binding",
-                "Value": "Button 1"
+                "Property": "Button",
+                "Value": "Left"
               }
             ],
             "Enable": true
           },
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
             "Settings": [
               {
-                "Property": "Binding",
-                "Value": "Button 2"
+                "Property": "Button",
+                "Value": "Right"
               }
             ],
             "Enable": true
           }
         ],
         "AuxButtons": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "Tab"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "M"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+P"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "LeftShift"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Z"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Shift+Alt+R"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "Space"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Space"
+              }
+            ],
+            "Enable": true
+          }
         ],
         "MouseButtons": [],
         "MouseScrollUp": null,
