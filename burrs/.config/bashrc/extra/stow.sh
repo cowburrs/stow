@@ -1,5 +1,5 @@
 stowburrs() {
-	stow -d ~/stow burrs -v $#
+	stow -d ~/stow burrs -v "$@"
 }
 stowcp() {
     if [ $# -lt 1 ]; then
