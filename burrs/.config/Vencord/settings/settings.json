@@ -4,9 +4,7 @@
     "useQuickCss": true,
     "themeLinks": [],
     "eagerPatches": false,
-    "enabledThemes": [
-        "macchiato.theme.css"
-    ],
+    "enabledThemes": [],
     "enableReactDevtools": false,
     "frameless": false,
     "transparent": false,
@@ -65,7 +63,7 @@
         "AppleMusicRichPresence": {
             "enabled": false
         },
-        "WebRichPresence (arRPC)": {
+        "AutoDNDWhilePlaying": {
             "enabled": false
         },
         "BetterFolders": {
@@ -96,7 +94,7 @@
             "enabled": false
         },
         "BiggerStreamPreview": {
-            "enabled": false
+            "enabled": true
         },
         "BlurNSFW": {
             "enabled": false
@@ -141,7 +139,11 @@
             "enabled": false
         },
         "CustomRPC": {
-            "enabled": false
+            "enabled": false,
+            "type": 2,
+            "appName": "Laufey",
+            "details": "I love Laufey",
+            "state": "I'm a lauver"
         },
         "Dearrow": {
             "enabled": false
@@ -235,6 +237,9 @@
         "ImplicitRelationships": {
             "enabled": false
         },
+        "InvisibleChat": {
+            "enabled": false
+        },
         "IrcColors": {
             "enabled": false
         },
@@ -311,6 +316,9 @@
             "enabled": false
         },
         "NoServerEmojis": {
+            "enabled": false
+        },
+        "NoSystemBadge": {
             "enabled": false
         },
         "NoTypingAnimation": {
@@ -424,8 +432,7 @@
         "ShowHiddenChannels": {
             "enabled": true,
             "showMode": 0,
-            "hideUnreads": true,
-            "defaultAllowedUsersAndRolesDropdownState": true
+            "hideUnreads": true
         },
         "ShowHiddenThings": {
             "enabled": true,
@@ -441,13 +448,10 @@
         },
         "SilentMessageToggle": {
             "enabled": true,
-            "persistState": true,
-            "autoDisable": true
+            "persistState": false
         },
         "SilentTyping": {
-            "enabled": true,
-            "isEnabled": true,
-            "showIcon": false
+            "enabled": false
         },
         "SortFriendRequests": {
             "enabled": false
@@ -456,7 +460,9 @@
             "enabled": false
         },
         "SpotifyCrack": {
-            "enabled": false
+            "enabled": true,
+            "noSpotifyAutoPause": true,
+            "keepSpotifyActivityOnIdle": false
         },
         "SpotifyShareCommands": {
             "enabled": false
@@ -468,7 +474,7 @@
             "enabled": false
         },
         "StreamerModeOnStream": {
-            "enabled": false
+            "enabled": true
         },
         "SuperReactionTweaks": {
             "enabled": false
@@ -513,7 +519,7 @@
             "enabled": false
         },
         "VoiceChatDoubleClick": {
-            "enabled": true
+            "enabled": false
         },
         "VcNarrator": {
             "enabled": false
@@ -537,12 +543,6 @@
             "enabled": true,
             "multiplier": 2
         },
-        "WebKeybinds": {
-            "enabled": true
-        },
-        "WebScreenShareFixes": {
-            "enabled": true
-        },
         "WhoReacted": {
             "enabled": false
         },
@@ -563,22 +563,9 @@
             "enabled": true,
             "settingsLocation": "aboveNitro"
         },
-        "DisableDeepLinks": {
-            "enabled": true
-        },
         "SupportHelper": {
             "enabled": true
-        },
-        "WebContextMenus": {
-            "enabled": true
-        },
-        "MoreQuickReactions": {
-            "enabled": false
         }
-    },
-    "uiElements": {
-        "chatBarButtons": {},
-        "messagePopoverButtons": {}
     },
     "notifications": {
         "timeout": 5000,
@@ -590,6 +577,10 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1767096867042
+        "settingsSyncVersion": 1767096371845
+    },
+    "uiElements": {
+        "chatBarButtons": {},
+        "messagePopoverButtons": {}
     }
 }
