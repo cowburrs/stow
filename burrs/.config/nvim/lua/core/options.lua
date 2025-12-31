@@ -2,6 +2,8 @@
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
+-- TODO: Actually do that. look through the option-list. you got it 
+-- Also you need to make local opts, and remove the redundant vim.o its literally bloat. DRY after all
 
 vim.o.number = true -- Make line numbers default
 vim.o.relativenumber = true
