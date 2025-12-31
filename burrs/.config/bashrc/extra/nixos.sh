@@ -26,3 +26,10 @@ sudo nix-collect-garbage -d
 nlg() {
 sudo nix-env -p /nix/var/nix/profiles/system --list-generations
 }
+
+yay() {
+    if [ "$1" = "-S" ]; then
+        shift              # remove the -S
+        nix-shell -p "$@"   # pass the rest as packages to nix-shell
+    fi
+}

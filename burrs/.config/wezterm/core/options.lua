@@ -2,6 +2,7 @@ local wezterm = require("wezterm")
 
 return {
 	color_scheme = "Catppuccin Macchiato",
+	-- color_scheme = "tokyonight",
 	font_size = 12,
 	window_padding = {
 		left = "0cell",
@@ -11,4 +12,7 @@ return {
 	},
 	font = wezterm.font("JetBrainsMono Nerd Font"),
 	hide_tab_bar_if_only_one_tab = true,
+	window_background_opacity = 0.7,
+	text_background_opacity = 0.7, -- change neovim transparency
+	window_decorations = "NONE"
 }

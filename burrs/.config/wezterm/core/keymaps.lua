@@ -42,12 +42,22 @@ return {
 		{
 			key = "w",
 			mods = "CTRL",
-			action = wezterm.action.CloseCurrentTab({ confirm = true }),
+			action = act.CloseCurrentTab({ confirm = true }),
 		},
 		{
 			key = "l",
 			mods = "CTRL|SHIFT",
-			action = wezterm.action.ShowDebugOverlay,
+			action = act.ShowDebugOverlay,
+		},
+		{
+			key = "p",
+			mods = "CTRL|SHIFT",
+			action = act.EmitEvent("user-defined-0"),
+		},
+		{
+			key = "p",
+			mods = "CTRL|SHIFT|ALT",
+			action = act.EmitEvent("user-defined-1"),
 		},
 	},
 }

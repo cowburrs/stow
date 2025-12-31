@@ -34,7 +34,7 @@ tabline.setup({
 	},
 	extensions = {},
 })
-return tabline
+return {tabline, {enable = true}}
 -- Window
 --     mode (current keytable)
 --     battery (battery percentage)

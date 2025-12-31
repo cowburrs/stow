@@ -50,9 +50,10 @@ local directories = {
 
 local files = dirs_to_files(directories) -- can't fucking believe i did actual programming. yeah this is just why did i do this
 
+
 -- Plugins
 for _, value in ipairs(list_dirs("plugins")) do
-	require(value).apply_to_config(config)
+	require(value)[1].apply_to_config(config, require(value)[2])
 end
 
 for _, k in pairs(files) do
