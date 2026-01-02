@@ -26,7 +26,7 @@
 		"pulseaudio#input",
 		"pulseaudio#output",
 		"network",
-		"memory",
+		// "memory",
 		"temperature",
 		"custom/keyboard-layout",
 		"battery",
@@ -135,10 +135,10 @@
 
 	"network": {
 		"interval": 5,
-		"format-wifi": "  {essid} ({signalStrength}%)", // Icon: wifi
+		"format-wifi": "  {bandwidthDownBytes} ({signalStrength}%)", // Icon: wifi
 		"format-ethernet": "  {ifname}: {ipaddr}/{cidr}", // Icon: ethernet
 		"format-disconnected": "!  Disconnected",
-		"tooltip-format": "{ifname}: {ipaddr}"
+		"tooltip-format": "{essid}: {ipaddr}"
 	},
 
 	"pulseaudio#input": {
