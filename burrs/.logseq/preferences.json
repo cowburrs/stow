@@ -18,5 +18,9 @@
       "selected": false
     }
   },
-  "externals": []
+  "externals": [],
+  "pinnedToolbarItems": [
+    "logseq-git:git",
+    "logseq-heatmap:heatmap-plugin-open"
+  ]
 }
