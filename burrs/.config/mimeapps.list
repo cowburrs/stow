@@ -11,5 +11,6 @@ x-scheme-handler/logseq=Logseq.desktop
 x-scheme-handler/heroic=com.heroicgameslauncher.hgl.desktop
 x-scheme-handler/lunarclient=lunarclient.desktop
 x-scheme-handler/discord-562286213059444737=lunarclient.desktop
+x-scheme-handler/ror2mm=r2modman.desktop
 
 [Added Associations]
