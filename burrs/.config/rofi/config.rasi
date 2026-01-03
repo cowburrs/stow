@@ -77,7 +77,7 @@ element-icon {
 window {
     padding:          5;
     background-color: @background;
-    border:           1;
+    border:           1px;
 		width: 34%;
 }
 mainbox {
@@ -139,7 +139,9 @@ inputbar {
     spacing:    0px ;
     text-color: @normal-foreground;
     children:   [ "entry" ];
-background-color:               @surface0;
+		background-color:               @surface0;
+		border: 2px;
+		border-color: @surface2;
 }
 case-indicator {
     spacing:    0;
@@ -177,6 +179,7 @@ element {
 }
 configuration {
 	show-icons:                     true;
+		font: "Exo 2 12";
 }
 
 element-icon {
