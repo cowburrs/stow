@@ -36,6 +36,6 @@
 
   /* Backgrounds (glassy) */
   base:      rgba(36, 39, 58, 0.80);
-  mantle:   rgba(30, 32, 48, 0.75);
-  crust:    rgba(24, 25, 38, 0.70);
+  mantle:   rgba(30, 32, 48, 0.6);
+  crust:    rgba(24, 25, 38, 0.2);
 }

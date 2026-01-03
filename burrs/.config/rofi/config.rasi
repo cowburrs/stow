@@ -33,7 +33,6 @@ element {
     padding: 1px ;
     cursor:  pointer;
     spacing: 5px ;
-    border:  0;
 }
 element normal.normal,
 element alternate.normal {
@@ -53,6 +52,9 @@ element alternate.urgent {
 element selected.normal {
     background-color: @selected-normal-background;
     text-color:       @selected-normal-foreground;
+		border-color: @mauve;
+		border: 2;
+		border-radius: 5;
 }
 element selected.urgent {
     background-color: @selected-urgent-background;
@@ -77,7 +79,9 @@ element-icon {
 window {
     padding:          5;
     background-color: @background;
-    border:           1px;
+    border:           2px;
+    border-color:           @overlay2;
+		border-radius: 6;
 		width: 34%;
 }
 mainbox {
@@ -135,13 +139,13 @@ textbox-num-sep {
 }
 inputbar {
     padding:    20px ;
-		border-radius:5px;
-    spacing:    0px ;
+		// border-radius:5px;
+    spacing:    1px ;
     text-color: @normal-foreground;
     children:   [ "entry" ];
 		background-color:               @surface0;
-		border: 2px;
-		border-color: @surface2;
+		border: 1px;
+		border-color: @overlay2;
 }
 case-indicator {
     spacing:    0;
@@ -152,7 +156,7 @@ entry {
     cursor:            text;
     spacing:           0;
     placeholder-color: Gray;
-    placeholder:       "Search";
+    placeholder:       "";
 }
 prompt {
     spacing:    0;
