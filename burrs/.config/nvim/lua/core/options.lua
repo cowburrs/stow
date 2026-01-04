@@ -74,6 +74,8 @@ vim.o.cursorline = true -- Show which line your cursor is on
 
 vim.o.scrolloff = 10 -- Minimal number of screen lines to keep above and below the cursor.
 
+vim.o.wrap = false
+
 -- See `:help 'confirm'`
 vim.o.confirm = true
 vim.opt.tabstop = 2
