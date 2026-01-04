@@ -1,1 +1,4 @@
-alias man="man -Hfirefox"
+helpburrs() {
+	man -Hfirefox "$@"
+	tldr "$@"
+}
