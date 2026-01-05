@@ -29,33 +29,33 @@ return {
 				center = {
 					{
 						action = "lua require('telescope.builtin').find_files()",
-						desc = " Find File",
+						desc = " Find [F]ile",
 						icon = " ",
 						key = "f",
 					},
 					{
 						action = "lua require('telescope.builtin').live_grep()",
-						desc = " Find Text",
+						desc = " Find [T]ext",
 						icon = " ",
 						key = "t",
 					},
 					{
 						action = "ene | startinsert",
-						desc = " New File",
+						desc = " [N]ew File",
 						icon = " ",
 						key = "n",
 					},
 					{
 						action = 'lua require("persistence").load()',
-						desc = " Restore Session",
+						desc = " [R]estore Session",
 						icon = " ",
-						key = "s",
+						key = "r",
 					},
 					{
 						action = function()
 							vim.api.nvim_input("<cmd>Tfm<cr>")
 						end,
-						desc = " File manager",
+						desc = " File [m]anager",
 						icon = " ",
 						key = "m",
 					},
@@ -63,7 +63,7 @@ return {
 						action = function()
 							vim.api.nvim_input("<cmd>qa<cr>")
 						end,
-						desc = " Quit",
+						desc = " [Q]uit",
 						icon = " ",
 						key = "q",
 					},
