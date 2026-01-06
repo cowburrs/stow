@@ -1,0 +1,12 @@
+[StreamInputs]
+inputDevice=alsa_input.usb-R__DE_R__DE_NT-USB__151081CE-00.mono-fallback
+plugins=stereo_tools#0,speex#0,deepfilternet#0
+visiblePage=pluginsPage
+visiblePlugin=stereo_tools#0
+
+[StreamOutputs]
+outputDevice=alsa_output.usb-R__DE_R__DE_NT-USB__151081CE-00.analog-stereo
+
+[Window]
+height=1048
+width=956
