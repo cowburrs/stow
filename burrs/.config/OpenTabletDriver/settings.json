@@ -162,7 +162,7 @@
     {
       "Tablet": "Wacom CTL-4100",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
+        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
         "Settings": [],
         "Enable": true
       },
@@ -176,9 +176,9 @@
           "Rotation": 0.0
         },
         "Tablet": {
-          "Width": 152.0,
-          "Height": 95.0,
-          "X": 76.0,
+          "Width": 80.0,
+          "Height": 45.0,
+          "X": 80.0,
           "Y": 47.5,
           "Rotation": 0.0
         },
@@ -194,16 +194,7 @@
       },
       "Bindings": {
         "TipActivationThreshold": 1.0,
-        "TipButton": {
-          "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
-          "Settings": [
-            {
-              "Property": "Binding",
-              "Value": "Tip"
-            }
-          ],
-          "Enable": true
-        },
+        "TipButton": null,
         "EraserActivationThreshold": 1.0,
         "EraserButton": {
           "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
@@ -217,21 +208,21 @@
         },
         "PenButtons": [
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
             "Settings": [
               {
-                "Property": "Binding",
-                "Value": "Button 1"
+                "Property": "Button",
+                "Value": "Left"
               }
             ],
             "Enable": true
           },
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
             "Settings": [
               {
-                "Property": "Binding",
-                "Value": "Button 2"
+                "Property": "Button",
+                "Value": "Right"
               }
             ],
             "Enable": true

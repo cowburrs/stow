@@ -1,16 +1,19 @@
-[Default Applications]
-text/html=firefox.desktop
-x-scheme-handler/http=firefox.desktop
-x-scheme-handler/https=firefox.desktop
-x-scheme-handler/about=firefox.desktop
-x-scheme-handler/unknown=firefox.desktop
-; inode/directory=dolphin.desktop
-x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
-x-scheme-handler/discord=vesktop.desktop
-x-scheme-handler/logseq=Logseq.desktop
-x-scheme-handler/heroic=com.heroicgameslauncher.hgl.desktop
-x-scheme-handler/lunarclient=lunarclient.desktop
-x-scheme-handler/discord-562286213059444737=lunarclient.desktop
-x-scheme-handler/ror2mm=r2modman.desktop
-
 [Added Associations]
+x-scheme-handler/http=firefox-2.desktop;
+
+[Default Applications]
+; inode/directory=dolphin.desktop
+image/jpeg=firefox.desktop
+image/png=firefox.desktop
+text/html=firefox.desktop
+x-scheme-handler/about=firefox.desktop
+x-scheme-handler/discord=vesktop.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
+x-scheme-handler/discord-562286213059444737=lunarclient.desktop
+x-scheme-handler/heroic=com.heroicgameslauncher.hgl.desktop
+x-scheme-handler/http=firefox-2.desktop;
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/logseq=Logseq.desktop
+x-scheme-handler/lunarclient=lunarclient.desktop
+x-scheme-handler/ror2mm=r2modman.desktop
+x-scheme-handler/unknown=firefox.desktop

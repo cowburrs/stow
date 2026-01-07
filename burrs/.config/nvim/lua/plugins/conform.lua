@@ -33,6 +33,7 @@ return {
 				nix = { "nixfmt" },
 				json = { "jsonfmt" },
 				jsonc = { "biome" },
+				sh = { "beautysh" },
 			},
 		})
 	end,

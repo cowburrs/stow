@@ -33,3 +33,10 @@ yay() {
         nix-shell -p "$@"   # pass the rest as packages to nix-shell
     fi
 }
+
+apt() {
+    if [ "$1" = "install" ]; then
+        shift              # remove the -S
+        nix-shell -p "$@"   # pass the rest as packages to nix-shell
+    fi
+}
