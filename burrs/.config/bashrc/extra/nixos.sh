@@ -1,6 +1,6 @@
 nr() {
-    git -C ~/nixos add -A
     sudo -v || return 1
+		git -C ~/nixos add -A
 
     while true; do sudo -v >/dev/null 2>&1; sleep 60; done &
     local keepalive_pid=$!
@@ -12,6 +12,7 @@ nr() {
     # Set new trap
     trap "kill $keepalive_pid 2>/dev/null; $old_exit_trap" EXIT INT TERM
 
+		# Sorry to all the pure purists out there, this is the best way to do your system.
     nh os test ~/nixos#burrs --impure --no-update-lock-file
 
     # Cleanup manually just in case
@@ -21,8 +22,8 @@ nr() {
 
 
 nrs() { # holy vibecoding motherload. sorry about this one
-    git -C ~/nixos add -A
     sudo -v || return 1
+		git -C ~/nixos add -A
 
     while true; do sudo -v >/dev/null 2>&1; sleep 60; done &
     local keepalive_pid=$!
@@ -44,8 +45,8 @@ nrs() { # holy vibecoding motherload. sorry about this one
 
 nrlaptop() {
     # sudo nixos-rebuild test --impure --flake ~/nixos#laptop
-    git -C ~/nixos add -A
     sudo -v || return 1
+		git -C ~/nixos add -A
 
     while true; do sudo -v >/dev/null 2>&1; sleep 60; done &
     local keepalive_pid=$!
@@ -66,8 +67,8 @@ nrlaptop() {
 
 nrslaptop() {
     # sudo nixos-rebuild switch --impure --flake ~/nixos#laptop
-    git -C ~/nixos add -A
     sudo -v || return 1
+		git -C ~/nixos add -A
 
     while true; do sudo -v >/dev/null 2>&1; sleep 60; done &
     local keepalive_pid=$!
