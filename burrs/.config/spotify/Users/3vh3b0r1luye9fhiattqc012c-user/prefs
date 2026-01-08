@@ -1,5 +1,9 @@
-connect.mdns_devices="[]"
-connect.dial_devices="[{\"address\":\"10.0.0.125\",\"app_state\":\"MISSING\",\"created_timestamp\":1765975121,\"device_id\":\"76244cd0-a7cd-4044-8f15-d08cb908a8fc\",\"dial_location_url\":\"http://10.0.0.125:56790/dial/dd.xml\",\"display_name\":\"PAOCAT\",\"last_seen\":1765975299,\"manufacturer\":\"Hybroad\",\"model_name\":\"H671T\",\"product_cap\":\"\",\"public_ip\":\"2001:8003:1da2:a900:8b3d:65f0:c50f:4ae9\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"0c565ca1ef38\",\"port\":9,\"retries\":80}},{\"address\":\"10.0.0.37\",\"app_state\":\"MISSING\",\"created_timestamp\":1765975121,\"device_id\":\"50f2c424-36f1-4f09-b3cc-203102d6757a\",\"dial_location_url\":\"http://10.0.0.37:56790/dial/dd.xml\",\"display_name\":\"BEN\",\"last_seen\":1765975299,\"manufacturer\":\"Hybroad\",\"model_name\":\"H671T\",\"product_cap\":\"\",\"public_ip\":\"2001:8003:1da2:a900:8b3d:65f0:c50f:4ae9\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"0c565ca1ee51\",\"port\":9,\"retries\":80}}]"
-audio.play_bitrate_non_metered_migrated=true
+audio.equalizer.low_mid_peak_gain_v2=223696213
+audio.equalizer_v2=true
 audio.downmixer_v2=true
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[{\"address\":\"10.0.0.125\",\"app_state\":\"MISSING\",\"created_timestamp\":1765975121,\"device_id\":\"76244cd0-a7cd-4044-8f15-d08cb908a8fc\",\"dial_location_url\":\"http://10.0.0.125:56790/dial/dd.xml\",\"display_name\":\"PAOCAT\",\"last_seen\":1765975299,\"manufacturer\":\"Hybroad\",\"model_name\":\"H671T\",\"product_cap\":\"\",\"public_ip\":\"2001:8003:1da2:a900:8b3d:65f0:c50f:4ae9\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"0c565ca1ef38\",\"port\":9,\"retries\":80}},{\"address\":\"10.0.0.37\",\"app_state\":\"MISSING\",\"created_timestamp\":1765975121,\"device_id\":\"50f2c424-36f1-4f09-b3cc-203102d6757a\",\"dial_location_url\":\"http://10.0.0.37:56790/dial/dd.xml\",\"display_name\":\"BEN\",\"last_seen\":1765975299,\"manufacturer\":\"Hybroad\",\"model_name\":\"H671T\",\"product_cap\":\"\",\"public_ip\":\"2001:8003:1da2:a900:8b3d:65f0:c50f:4ae9\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"0c565ca1ee51\",\"port\":9,\"retries\":80}}]"
+connect.mdns_devices="[]"
+audio.equalizer.low_peak_gain_v2=626349397
 app.player.volume=41357
+audio.equalizer.low_shelf_gain_v2=760567125
