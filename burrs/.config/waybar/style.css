@@ -88,8 +88,8 @@
 #waybar {
 	background: @crust;
 	color: @text;
-	font-family: Inter, inter;
-	font-size: 13px;
+	font-family: Aporetic Sans, Inter, inter;
+	font-size: 12px;
 }
 
 /* Each module */

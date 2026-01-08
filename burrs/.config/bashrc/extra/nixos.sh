@@ -91,7 +91,7 @@ ngc() {
     nh clean all --keep 3
 }
 
-nlg() {
+ngl() {
     nh os info
 }
 

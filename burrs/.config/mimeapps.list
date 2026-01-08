@@ -17,3 +17,7 @@ x-scheme-handler/logseq=Logseq.desktop
 x-scheme-handler/lunarclient=lunarclient.desktop
 x-scheme-handler/ror2mm=r2modman.desktop
 x-scheme-handler/unknown=firefox.desktop
+audio/wav=vlc.desktop
+audio/x-wav=vlc.desktop
+audio/mpeg=vlc.desktop
+audio/mp3=vlc.desktop

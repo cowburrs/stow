@@ -11,6 +11,8 @@ return {
 		bottom = "0.0cell",
 	},
 	font = wezterm.font("JetBrainsMono Nerd Font"),
+	-- font = wezterm.font("Aporetic Sans Mono"),
+
 	hide_tab_bar_if_only_one_tab = true,
 	window_background_opacity = 0.7,
 	text_background_opacity = 0.7, -- change neovim transparency
