@@ -112,3 +112,9 @@ apt() {
         nix-shell -p "$@"   # pass the rest as packages to nix-shell
     fi
 }
+
+dnf() {
+    if [ "$1" = "install" ]; then
+			~/.config/bashrc/scripts/fedora
+    fi
+}

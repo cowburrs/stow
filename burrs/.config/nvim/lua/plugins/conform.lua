@@ -34,6 +34,8 @@ return {
 				json = { "jsonfmt" },
 				jsonc = { "biome" },
 				sh = { "beautysh" },
+				rust = { "rustfmt" },
+				rs = { "rustfmt" },
 			},
 		})
 	end,

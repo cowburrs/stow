@@ -12,11 +12,13 @@ return {
 			},
 		},
 	},
+	-- NOTE: use :help lspconfig-all
 	config = function()
 		vim.lsp.enable("hyprls")
 		vim.lsp.enable("lua_ls")
 		vim.lsp.enable("nil_ls")
 		vim.lsp.enable("nixd")
-		vim.lsp.enable("ast-grep")
+		vim.lsp.enable("ast_grep")
+		vim.lsp.enable("rust_analyzer")
 	end,
 }

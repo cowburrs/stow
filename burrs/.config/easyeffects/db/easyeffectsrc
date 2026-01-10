@@ -6,9 +6,7 @@ visiblePlugin=stereo_tools#0
 
 [StreamOutputs]
 outputDevice=alsa_output.usb-R__DE_R__DE_NT-USB__151081CE-00.analog-stereo
-visiblePage=pluginsPage
 
 [Window]
-height=1052
-visiblePage=inputPage
-width=1920
+height=522
+width=956
