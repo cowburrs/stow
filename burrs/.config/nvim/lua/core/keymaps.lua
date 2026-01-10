@@ -41,10 +41,10 @@ vim.keymap.set("n", "<leader>nn", function()
 end, { desc = "Send Test [N]otificatio[N]" })
 
 -- Change buffer size with a simple keybind.....
-vim.keymap.set("n", "<A-S-h>", "<cmd>vertical resize +2<CR>")
-vim.keymap.set("n", "<A-S-l>", "<cmd>vertical resize -2<CR>")
-vim.keymap.set("n", "<A-S-j>", "<cmd>resize -2<CR>")
-vim.keymap.set("n", "<A-S-k>", "<cmd>resize +2<CR>")
+vim.keymap.set("n", "<A-S-h>", "<cmd>vertical resize +5<CR>")
+vim.keymap.set("n", "<A-S-l>", "<cmd>vertical resize -5<CR>")
+vim.keymap.set("n", "<A-S-j>", "<cmd>resize -5<CR>")
+vim.keymap.set("n", "<A-S-k>", "<cmd>resize +5<CR>")
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
