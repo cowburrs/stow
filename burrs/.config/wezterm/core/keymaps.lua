@@ -114,5 +114,8 @@ return {
 			mods = "CTRL|SHIFT",
 			action = act.ActivateCopyMode,
 		},
+		{ key = "=", mods = "CTRL", action = act.IncreaseFontSize },
+		{ key = "-", mods = "CTRL", action = act.DecreaseFontSize },
+		{ key = "0", mods = "CTRL", action = act.ResetFontSize },
 	},
 }
