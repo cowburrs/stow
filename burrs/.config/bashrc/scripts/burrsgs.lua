@@ -11,7 +11,7 @@ local function gitHasUpdates(path)
 	end
 end
 local function check(filepath, name)
-	if run("Fetching " .. name, "git -C $HOME" .. filepath .. " fetch >/dev/null 2>&1", "pulse") then
+	if run("Fetching " .. name, "bash -c 'git -C $HOME/" .. filepath .. " fetch >/dev/null 2>&1'", "pulse") then
 		local lfs = require("lfs")
 		lfs.chdir(os.getenv("HOME") .. filepath)
 		if gitHasUpdates("$HOME" .. filepath) then
