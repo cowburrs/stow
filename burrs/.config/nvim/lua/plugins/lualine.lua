@@ -36,8 +36,25 @@ return {
 				},
 			},
 			sections = {
-				lualine_a = { "mode" },
-				lualine_b = { "branch", "diff", "diagnostics" },
+				lualine_a = {
+					"mode",
+				},
+				lualine_b = {
+					"branch",
+					"diff",
+					{
+						"macro-recording",
+						fmt = function()
+							local recording_register = vim.fn.reg_recording()
+							if recording_register == "" then
+								return ""
+							else
+								return "Recording @" .. recording_register
+							end
+						end,
+					},
+					"diagnostics",
+				},
 				lualine_c = { { "filename", path = 3 } },
 				lualine_x = { "lsp_status", "encoding", "fileformat", "filetype" },
 				lualine_y = { "progress" },

@@ -35,16 +35,5 @@ burrscryfs() {
 }
 
 burrsgs() {
-    echo "nixos"
-    git -C $HOME/nixos/ fetch
-    git -C $HOME/nixos/ status
-    echo "taskmanger"
-    git -C $HOME/Repositories/Taskmanger/ fetch
-    git -C $HOME/Repositories/Taskmanger/ status
-    echo "school"
-    git -C $HOME/Repositories/School/ fetch
-    git -C $HOME/Repositories/School/ status
-    echo "stow"
-    git -C $HOME/stow/ fetch
-    git -C $HOME/stow/ status
+	lua $HOME/.config/bashrc/scripts/burrsgs.lua
 }
