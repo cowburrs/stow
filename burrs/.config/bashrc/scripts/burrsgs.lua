@@ -16,7 +16,7 @@ local function check(filepath, name)
 		lfs.chdir(os.getenv("HOME") .. filepath)
 		if gitHasUpdates("$HOME" .. filepath) then
 			if os.execute("gum confirm 'do you wish to pull?'") then
-				if not run("Pulling" .. name, "git pull", "pulse") then
+				if not run("Pulling " .. name, "git pull", "pulse") then
 					print("Pull Failed")
 					os.exit(1)
 				end
