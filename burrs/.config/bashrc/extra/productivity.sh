@@ -21,11 +21,7 @@ pomodoro() {
 
 }
 todo() {
-    local time=${1:-5}
-    viddy -n $time "{ time lua $HOME/Repositories/Taskmanger/src/main.lua; } 2>&1"
-    prettier --write "$HOME/Repositories/Taskmanger/json/*.json" >/dev/null
-    nvim $HOME/Repositories/Taskmanger/json/todo.json
-    nvim $HOME/Repositories/Taskmanger/done.json
+    lua $HOME/Repositories/Taskmanger/src/main.lua "$@"
 }
 tododone() {
     nvim $HOME/Repositories/Taskmanger/done.json
@@ -39,8 +35,16 @@ burrscryfs() {
 }
 
 burrsgs() {
+    echo "nixos"
+    git -C $HOME/nixos/ fetch
     git -C $HOME/nixos/ status
+    echo "taskmanger"
+    git -C $HOME/Repositories/Taskmanger/ fetch
     git -C $HOME/Repositories/Taskmanger/ status
+    echo "school"
+    git -C $HOME/Repositories/School/ fetch
     git -C $HOME/Repositories/School/ status
+    echo "stow"
+    git -C $HOME/stow/ fetch
     git -C $HOME/stow/ status
 }

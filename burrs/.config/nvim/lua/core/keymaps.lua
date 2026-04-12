@@ -107,9 +107,12 @@ end, { desc = "[Y]ank [D]iagnostic" })
 
 -- For alt to tabs
 for i = 1, 9 do
-  vim.keymap.set("n", "<M-" .. i .. ">", i .. "gt", {
-    noremap = true,
-    silent = true,
-    desc = "Go to tab " .. i,
-  })
+	vim.keymap.set("n", "<M-" .. i .. ">", i .. "gt", {
+		noremap = true,
+		silent = true,
+		desc = "Go to tab " .. i,
+	})
 end
+
+vim.keymap.set("n", "<M-S-l>", function() vim.cmd("tabmove +1") end, { desc = "Move tab right" })
+vim.keymap.set("n", "<M-S-h>", function() vim.cmd("tabmove -1") end, { desc = "Move tab left" })
