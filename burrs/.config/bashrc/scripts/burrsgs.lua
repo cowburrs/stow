@@ -29,7 +29,7 @@ local function check(filepath, name)
 			print(name .. " needs push")
 			if not gitHasUpdates("$HOME" .. filepath) then
 				if os.execute("gum confirm 'Gitshit???'") then
-					if not run("Shitting out a commit" .. name, "bash -i -c 'gitshit'", "pulse") then
+					if not run("Shitting out a commit in " .. name, "bash -i -c 'gitshit'", "pulse") then
 						print("Gitshit Failed")
 						os.exit(1)
 					end
