@@ -9,6 +9,9 @@ return {
 				-- See the configuration section for more details
 				-- Load luvit types when the `vim.uv` word is found
 				{ path = "${3rd}/luv/library", words = { "vim%.uv" } },
+				vim.env.HOME .. "/.config/lua",
+				vim.env.LUA_LIBS,
+				print(vim.env.LUA_LIBS)
 			},
 		},
 	},
