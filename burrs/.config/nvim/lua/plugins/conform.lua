@@ -37,6 +37,7 @@ return {
 				rust = { "rustfmt" },
 				rs = { "rustfmt" },
 				haskell = { "ormolu" },
+				toml = { "taplo" },
 			},
 		})
 	end,

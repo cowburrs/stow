@@ -11,7 +11,6 @@ return {
 				{ path = "${3rd}/luv/library", words = { "vim%.uv" } },
 				vim.env.HOME .. "/.config/lua",
 				vim.env.LUA_LIBS,
-				print(vim.env.LUA_LIBS)
 			},
 		},
 	},
@@ -25,7 +24,14 @@ return {
 		vim.lsp.enable("rust_analyzer")
 		vim.lsp.enable("gdscript")
 		vim.lsp.enable("hls")
-		vim.lsp.enable("arduino_language_server")
 		vim.lsp.enable("pyright")
+		vim.lsp.enable("arduino_language_server")
+		vim.lsp.config("arduino_language_server", {
+			cmd = {
+				"arduino-language-server",
+				"-fqbn",
+				"arduino:avr:uno",
+			},
+		})
 	end,
 }
