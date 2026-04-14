@@ -15,13 +15,12 @@ local function check(filepath, name)
 		local lfs = require("lfs")
 		lfs.chdir(os.getenv("HOME") .. filepath)
 		if gitHasUpdates("$HOME" .. filepath) then
+			print(name .. " needs pull")
 			if os.execute("gum confirm 'do you wish to pull?'") then
 				if not run("Pulling " .. name, "git pull", "pulse") then
 					print("Pull Failed")
 					os.exit(1)
 				end
-			else
-				print(name .. " needs pull")
 			end
 		end
 
