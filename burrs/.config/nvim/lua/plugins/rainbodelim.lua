@@ -23,14 +23,12 @@ return {
 				"RainbowDelimiterLevel2",
 				"RainbowDelimiterLevel3",
 				"RainbowDelimiterLevel4",
-				"RainbowDelimiterLevel5",
+				-- "RainbowDelimiterLevel5",
 			},
 		}
-
-		vim.api.nvim_set_hl(0, "RainbowDelimiterLevel1", { fg = "#ffffff" })
-		vim.api.nvim_set_hl(0, "RainbowDelimiterLevel2", { fg = "#cccccc" })
-		vim.api.nvim_set_hl(0, "RainbowDelimiterLevel3", { fg = "#999999" })
-		vim.api.nvim_set_hl(0, "RainbowDelimiterLevel4", { fg = "#666666" })
-		vim.api.nvim_set_hl(0, "RainbowDelimiterLevel5", { fg = "#444444" })
+		vim.api.nvim_set_hl(0, "RainbowDelimiterLevel1", { fg = "#FFFFFF" })
+		vim.api.nvim_set_hl(0, "RainbowDelimiterLevel2", { fg = "#BFBFBF" })
+		vim.api.nvim_set_hl(0, "RainbowDelimiterLevel3", { fg = "#808080" })
+		vim.api.nvim_set_hl(0, "RainbowDelimiterLevel4", { fg = "#505060" })
 	end,
 }
