@@ -18,4 +18,5 @@ return {
 	window_background_opacity = 0.9,
 	text_background_opacity = 1, -- change neovim transparency
 	window_decorations = "NONE",
+	enable_kitty_keyboard = true,
 }

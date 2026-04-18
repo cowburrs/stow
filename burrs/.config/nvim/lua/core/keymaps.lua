@@ -27,12 +27,15 @@ vim.keymap.set({ "n", "i" }, "<C-s>", "<cmd>:w<CR>")
 -- Lazy Open
 vim.keymap.set("n", "<leader>l", "<cmd>:Lazy<CR>", { desc = "[L]azy" })
 
+-- Delete Backwards
+vim.keymap.set("i", "<C-BS>", "<C-w>")
+
 -- Move without cursor
 vim.keymap.set({ "n", "i" }, "<C-e>", "5<C-e>")
 vim.keymap.set({ "n", "i" }, "<C-y>", "5<C-y>")
 
 vim.keymap.set("n", "q", "<cmd>q<CR>")
-vim.keymap.set('n', 'Q', 'q', { noremap = true })
+vim.keymap.set("n", "Q", "q", { noremap = true })
 -- vim.keymap.set("n", "<S-q>", "q")
 vim.keymap.set({ "n", "i" }, "<C-s>", "<Cmd>w<CR>")
 
@@ -115,5 +118,9 @@ for i = 1, 9 do
 	})
 end
 
-vim.keymap.set("n", "<M-S-l>", function() vim.cmd("tabmove +1") end, { desc = "Move tab right" })
-vim.keymap.set("n", "<M-S-h>", function() vim.cmd("tabmove -1") end, { desc = "Move tab left" })
+vim.keymap.set("n", "<M-S-l>", function()
+	vim.cmd("tabmove +1")
+end, { desc = "Move tab right" })
+vim.keymap.set("n", "<M-S-h>", function()
+	vim.cmd("tabmove -1")
+end, { desc = "Move tab left" })

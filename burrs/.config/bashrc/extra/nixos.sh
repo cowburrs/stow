@@ -1,6 +1,6 @@
 nr() {
     sudo -v || return 1
-		git -C ~/nixos add -A
+    git -C ~/nixos add -A
 
     while true; do sudo -v >/dev/null 2>&1; sleep 60; done &
     local keepalive_pid=$!
@@ -12,8 +12,8 @@ nr() {
     # Set new trap
     trap "kill $keepalive_pid 2>/dev/null; $old_exit_trap" EXIT INT TERM
 
-		# Sorry to all the pure purists out there, this is the best way to do your system.
-    nh os test ~/nixos#burrs --impure 
+    # Sorry to all the pure purists out there, this is the best way to do your system.
+    nh os test ~/nixos#burrs --impure
 
     # Cleanup manually just in case
     kill "$keepalive_pid" 2>/dev/null
@@ -23,7 +23,7 @@ nr() {
 
 nrs() { # holy vibecoding motherload. sorry about this one
     sudo -v || return 1
-		git -C ~/nixos add -A
+    git -C ~/nixos add -A
 
     while true; do sudo -v >/dev/null 2>&1; sleep 60; done &
     local keepalive_pid=$!
@@ -35,7 +35,7 @@ nrs() { # holy vibecoding motherload. sorry about this one
     # Set new trap
     trap "kill $keepalive_pid 2>/dev/null; $old_exit_trap" EXIT INT TERM
 
-    nh os switch ~/nixos#burrs --impure 
+    nh os switch ~/nixos#burrs --impure
 
     # Cleanup manually just in case
     kill "$keepalive_pid" 2>/dev/null
@@ -46,7 +46,7 @@ nrs() { # holy vibecoding motherload. sorry about this one
 nrlaptop() {
     # sudo nixos-rebuild test --impure --flake ~/nixos#laptop
     sudo -v || return 1
-		git -C ~/nixos add -A
+    git -C ~/nixos add -A
 
     while true; do sudo -v >/dev/null 2>&1; sleep 60; done &
     local keepalive_pid=$!
@@ -58,7 +58,7 @@ nrlaptop() {
     # Set new trap
     trap "kill $keepalive_pid 2>/dev/null; $old_exit_trap" EXIT INT TERM
 
-    nh os test ~/nixos#laptop --impure 
+    nh os test ~/nixos#laptop --impure
 
     # Cleanup manually just in case
     kill "$keepalive_pid" 2>/dev/null
@@ -68,7 +68,7 @@ nrlaptop() {
 nrslaptop() {
     # sudo nixos-rebuild switch --impure --flake ~/nixos#laptop
     sudo -v || return 1
-		git -C ~/nixos add -A
+    git -C ~/nixos add -A
 
     while true; do sudo -v >/dev/null 2>&1; sleep 60; done &
     local keepalive_pid=$!
@@ -80,7 +80,7 @@ nrslaptop() {
     # Set new trap
     trap "kill $keepalive_pid 2>/dev/null; $old_exit_trap" EXIT INT TERM
 
-    nh os switch ~/nixos#laptop --impure 
+    nh os switch ~/nixos#laptop --impure
 
     # Cleanup manually just in case
     kill "$keepalive_pid" 2>/dev/null
@@ -101,21 +101,35 @@ nhs() {
 
 yay() {
     if [ "$1" = "-S" ]; then
-        shift              # remove the -S
-        nix-shell -p "$@"   # pass the rest as packages to nix-shell
+        shift
+
+        args=""
+        for pkg in "$@"; do
+            args="$args nixpkgs-unstable#$pkg"
+        done
+
+        nix shell $args
     fi
 }
 
 apt() {
     if [ "$1" = "install" ]; then
-        shift              # remove the -S
-        nix-shell -p "$@"   # pass the rest as packages to nix-shell
+        shift
+
+        args=""
+        for pkg in "$@"; do
+            args="$args nixpkgs#$pkg"
+        done
+
+        nix shell $args
     fi
 }
 
+# export PS1="\n\[\033[1;32m\][nix-shell:\w]\$\[\033[0m\] "
+
 dnf() {
     if [ "$1" = "install" ]; then
-			~/.config/bashrc/scripts/fedora
+        ~/.config/bashrc/scripts/fedora
     fi
 }
 
