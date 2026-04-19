@@ -68,5 +68,6 @@ return {
 		"shellnix/devenvs",
 		"gitignore vesktop and fonts",
 		"wlrwhichkey and submaps for opening apps",
+		"Fuck a dude"
 	}),
 }
