@@ -16,6 +16,7 @@ alias discord='discord --enable-features=UseOzonePlatform --ozone-platform=wayla
 alias systemd-analyse='systemd-analyze'
 alias cd..='cd ..'
 alias hidrawchmod='sudo chmod a+rw /dev/hidraw3'
+alias burrsmktemp='cd $(mktemp -d)'
 
 # -----------------------------------------------------
 # Window Managers
