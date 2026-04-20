@@ -1,4 +1,5 @@
 local m = require("src.model")
+local f = require("src.funcs")
 local HOUR = m.HOUR
 local timedelta = m.timedelta
 local dt = m.dt
@@ -22,6 +23,8 @@ local returntable = {
 	oneTimeTask("Engn Milestone 4", dt(2026, 3, 30), dt(2026, 5, 12)),
 	oneTimeTask("Engn Self-assessment Milestone 4", dt(2026, 5, 12), dt(2026, 5, 19)),
 	oneTimeTask("Engn Reflection", dt(2026, 4, 20), dt(2026, 5, 29)),
+	oneTimeTask("Engn Mid-Sem Test", dt(2026, 4, 20), dt(2026, 5, 6)),
+	oneTimeTask("Engn Self Assessment", dt(2026, 4, 21, 10), dt(2026, 4, 28, 10)),
 	oneTimeTask("Engn Rover Design Report", dt(2026, 4, 20), dt(2026, 5, 29)),
 	oneTimeTask("Engn Team (TMC2)", dt(2026, 5, 25), dt(2026, 6, 1)),
 	oneTimeTask("Cadetship ASD", dt(2026, 11, 1), dt(2027, 3, 1)),
@@ -51,7 +54,7 @@ local returntable = {
 		name = function(date, n)
 			return "Phys Week " .. (n + 6) .. " Lab Prep"
 		end,
-		conditions = { isDayWeek({ 0, 0 }), isNotTeachingBreak() },
+		conditions = { isDayOfWeek(0), isNotTeachingBreak() },
 		duetime = dueIn(2, 13),
 		checkstart = just(dt(2026, 3, 30)),
 		checkrepeats = justRepeats(6),
@@ -87,7 +90,7 @@ local returntable = {
 		"comp 5 final q",
 		"make clear tabs task weekly",
 	}),
-	worksheetTasks("Lambda Calculus", dt(2026, 4, 4), timedelta(5), 8, {4, 6, 10})
+	worksheetTasks("Lambda Calculus", dt(2026, 4, 4), timedelta(5), 8, { 4, 6, 10 }),
 	-- textBookTasks("Jstweart", dt(2026, 4, 4), dt(2026, 5, 4), { 6, 8, 7, 5, 8, 6, 7, 8, 5, 9, 8, 8, 9 }),
 }
 
