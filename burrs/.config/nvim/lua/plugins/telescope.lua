@@ -11,7 +11,7 @@ return {
 		event = "VimEnter",
 		dependencies = {
 			"nvim-lua/plenary.nvim",
-			{ "olacin/telescope-cc.nvim" },
+			{ "cowburrs/telescope-cc.nvim" },
 			{ -- If encountering errors, see telescope-fzf-native README for installation instructions
 				"nvim-telescope/telescope-fzf-native.nvim",
 

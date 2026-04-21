@@ -17,6 +17,6 @@ blocklist=WEBRTC VoiceEngine,ARC Raiders,Chromium,spotify
 outputDevice=alsa_output.usb-R__DE_R__DE_NT-USB__151081CE-00.analog-stereo
 
 [Window]
-height=1048
+height=522
 visiblePage=inputPage
 width=956

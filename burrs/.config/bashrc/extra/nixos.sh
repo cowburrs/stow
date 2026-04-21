@@ -108,7 +108,7 @@ yay() {
             args="$args nixpkgs-unstable#$pkg"
         done
 
-        nix shell $args
+        NIXPKGS_ALLOW_UNFREE=1 nix shell $args --impure
     fi
 }
 
@@ -133,4 +133,3 @@ dnf() {
     fi
 }
 
-export NIXPKGS_ALLOW_UNFREE=1
