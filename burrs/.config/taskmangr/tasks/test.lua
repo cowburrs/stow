@@ -68,5 +68,7 @@ return {
 		"shellnix/devenvs",
 		"gitignore vesktop and fonts",
 		"wlrwhichkey and submaps for opening apps",
+		"Package my pomodoro script",
+		"abuse the welfare system",
 	}),
 }
