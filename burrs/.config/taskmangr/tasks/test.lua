@@ -70,5 +70,7 @@ return {
 		"wlrwhichkey and submaps for opening apps",
 		"Package my pomodoro script",
 		"abuse the welfare system",
+		"change fonts for all default programs.",
+		"pomodoro program(check notes)",
 	}),
 }
