@@ -92,6 +92,7 @@ local returntable = {
 		"comp 5 final q",
 		"make clear tabs task weekly",
 		"textbook tasks",
+		"engineering self ass(check notes)"
 	}),
 }
 
