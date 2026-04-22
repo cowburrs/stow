@@ -34,7 +34,7 @@ return {
 		"Stitch pants",
 		"cadetship",
 		"git fetch to burrsgs",
-		"vanguard stocks",
+		"vanguard stocks, jk government bonds",
 		"move games to wishlist steam",
 		"clean megumin pillow",
 		"wakeup checklist",
