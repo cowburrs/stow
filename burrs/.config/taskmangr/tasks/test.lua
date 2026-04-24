@@ -73,5 +73,8 @@ return {
 		"change fonts for all default programs.",
 		"pomodoro program(check notes)",
 		"macros logseq",
+		"bitwarden/shitwarden or proton",
+		"remove json5",
+		"neomutt",
 	}),
 }
