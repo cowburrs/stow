@@ -76,5 +76,6 @@ return {
 		"bitwarden/shitwarden or proton",
 		"remove json5",
 		"neomutt",
+		"logseq and hyprland clear notofications keybind"
 	}),
 }
