@@ -93,7 +93,7 @@ local returntable = {
 		"make clear tabs task weekly",
 		"textbook tasks",
 		"engineering self ass(check notes)",
-		"eigenvectors",
+		"eigenvectors type shit",
 	}),
 }
 
