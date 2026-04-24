@@ -94,6 +94,7 @@ local returntable = {
 		"textbook tasks",
 		"engineering self ass(check notes)",
 		"eigenvectors type shit za",
+		"mathtask, may 05 4 pm test",
 	}),
 }
 
