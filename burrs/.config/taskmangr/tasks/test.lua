@@ -72,5 +72,6 @@ return {
 		"abuse the welfare system",
 		"change fonts for all default programs.",
 		"pomodoro program(check notes)",
+		"macros logseq",
 	}),
 }
