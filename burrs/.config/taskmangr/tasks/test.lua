@@ -1,15 +1,19 @@
 local m = require("src.model")
 local funcs = require("src.funcs")
 local st = m.singleTasks
+local td = m.timedelta
 local wt = m.weeklyTask
+local wt5 = function(name)
+	return wt(name, 5)
+end
 return {
 	wt("shave"),
-	wt("clean"),
 	wt("check emails"),
-	wt("cut nails"),
-	wt("clear tabs"),
 	wt("nix flake update"),
-	wt("clean toothbrush"),
+	wt5("clean"),
+	wt5("cut nails"),
+	wt5("clear tabs"),
+	wt5("clean toothbrush"),
 	{
 		name = m.just("Humble Bundle"),
 		conditions = { m.isDayOfWeek(2), m.isWeekOfMonth(1, m.timedelta(0, -17)) },
@@ -79,5 +83,7 @@ return {
 		"logseq and hyprland clear notofications keybind",
 		"do something about burrsgs",
 		"weekly tasks check notes",
+		"replace goonroll",
+		"buy gloves",
 	}),
 }
