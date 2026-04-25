@@ -85,5 +85,9 @@ return {
 		"weekly tasks check notes",
 		"replace goonroll",
 		"buy gloves",
+		"burrsgs pull/push confirmation",
+		"replace phone alarm",
+		"package micromouse",
+		"rustlings",
 	}),
 }
