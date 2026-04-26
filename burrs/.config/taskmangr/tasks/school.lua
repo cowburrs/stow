@@ -28,12 +28,22 @@ local returntable = {
 	oneTimeTask("Engn Rover Design Report", dt(2026, 4, 20), dt(2026, 5, 29)),
 	oneTimeTask("Engn Team (TMC2)", dt(2026, 5, 25), dt(2026, 6, 1)),
 	oneTimeTask("Cadetship ASD", dt(2026, 11, 1), dt(2027, 3, 1)),
+	oneTimeTask("Math Test", dt(2026, 4, 26), dt(2026, 5, 5)),
 	{
 		name = function(date, n)
 			return "Math Week " .. (n + 6) .. " Assignment Q/Task"
 		end,
 		conditions = { isDayOfWeek(0), isNotTeachingBreak() },
 		duetime = dueTime(timedelta(3)),
+		checkstart = just(dt(2026, 3, 30)),
+		checkrepeats = justRepeats(6),
+	},
+	{
+		name = function(date, n)
+			return "Math Week " .. (n + 6) .. " Assignment Reflection"
+		end,
+		conditions = { isDayOfWeek(0), isNotTeachingBreak() },
+		duetime = dueTime(timedelta(5)),
 		checkstart = just(dt(2026, 3, 30)),
 		checkrepeats = justRepeats(6),
 	},
