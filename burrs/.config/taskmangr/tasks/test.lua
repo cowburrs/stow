@@ -89,5 +89,7 @@ return {
 		"replace phone alarm",
 		"package micromouse",
 		"rustlings",
+		"test1",
+		"test1",
 	}),
 }
