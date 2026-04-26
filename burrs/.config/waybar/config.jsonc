@@ -18,7 +18,7 @@
 	// If height property would be not present, it'd be calculated dynamically
 	"height": 28,
 
-	"modules-left": ["hyprland/workspaces"],
+	"modules-left": ["hyprland/workspaces", "hyprland/submap"],
 	"modules-center": ["tray"],
 	"modules-right": [
 		"custom/waybar-mpris",

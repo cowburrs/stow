@@ -111,17 +111,26 @@ yay() {
         NIXPKGS_ALLOW_UNFREE=1 nix shell $args --impure
     fi
 }
+yay() {
+    if [ "$1" = "-S" ]; then
+        shift
+        args=""
+        for pkg in "$@"; do
+            args="$args nixpkgs-unstable#$pkg"
+        done
+        NIXPKGS_ALLOW_UNFREE=1 nix shell $args --impure --command bash --rcfile <(echo 'source ~/.bashrc; PS1="\n\[\033[1;32m\][nix-shell:\w]\$\[\033[0m\] "')
+    fi
+}
+# export PS1="\n\[\033[1;32m\][nix-shell:\w]\$\[\033[0m\] "
 
 apt() {
     if [ "$1" = "install" ]; then
         shift
-
         args=""
         for pkg in "$@"; do
             args="$args nixpkgs#$pkg"
         done
-
-        nix shell $args
+        nix shell $args --command bash --rcfile <(echo 'source ~/.bashrc; PS1="\n\[\033[1;32m\][nix-shell:\w]\$\[\033[0m\] "')
     fi
 }
 
