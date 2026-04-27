@@ -26,3 +26,10 @@ START OF FILE
 2026-04-21 16:10:22 16:10:22 16:40:23 | subject: moreeatinglol | work: 0 | rest: 30m
 2026-04-21 16:49:19 17:39:20 17:42:40 | subject: Placeholder | work: 50m | rest: 10m
 2026-04-21 17:42:46 18:02:47 18:12:47 | subject: sneaky | work: 20m | rest: 10m
+2026-04-27 11:11:13 11:55:59 12:05:59 | subject: physics | work: 50m | rest: 10m
+2026-04-27 12:06:13 12:06:13 12:15:12 | subject: 10minbreakpls | work: 50m | rest: 10m
+2026-04-27 12:15:14 12:15:17 12:15:17 | subject: 10minbreakpls | work: 50m | rest: 10m
+2026-04-27 13:40:32 13:40:32 13:40:33 | subject: Placeholder | work: 50m | rest: 10m
+2026-04-27 13:40:35 14:30:37 14:40:37 | subject: Placeholder | work: 50m | rest: 10m
+2026-04-27 14:40:42 15:30:44 15:40:44 | subject: Placeholder | work: 50m | rest: 10m
+2026-04-27 15:40:57 15:56:47 15:57:21 | subject: physics | work: 50m | rest: 10m
