@@ -16,6 +16,7 @@ local lectureTasks = m.lectureTasks
 local singleTasks = m.singleTasks
 local quizTask = m.quizTask
 local worksheetTasks = m.worksheetTasks
+local dailyTask = m.dailyTask
 local returntable = {
 	oneTimeTask("Engn Team (TMC1)", dt(2026, 3, 30), dt(2026, 4, 19)),
 	oneTimeTask("Engn Milestone 3", dt(2026, 3, 30), dt(2026, 4, 21)),
@@ -79,6 +80,7 @@ local returntable = {
 		checkrepeats = justRepeats(6),
 		checkstep = just(HOUR),
 	},
+	dailyTask("Anki"),
 	lectureTasks("math", 6, {
 		{ 1, dt(2026, 4, 14, 9) },
 		{ 2, dt(2026, 4, 14, 9) },
