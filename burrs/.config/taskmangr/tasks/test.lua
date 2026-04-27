@@ -91,5 +91,6 @@ return {
 		"rustlings",
 		"test1",
 		"test1",
+		"Music task idea(check notes)",
 	}),
 }
