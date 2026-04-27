@@ -28,8 +28,6 @@ return {
 				python = { "isort", "black" },
 				javascript = { "prettier", stop_after_first = true },
 				clojure = { "zprint" },
-				-- Currently nothing for this
-				hyprlang = { "hyprls" },
 				nix = { "nixfmt" },
 				json = { "prettier" },
 				jsonc = { "biome" },

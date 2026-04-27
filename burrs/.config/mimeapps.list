@@ -2,7 +2,8 @@
 application/pdf=firefox.desktop
 image/vnd.djvu=firefox.desktop
 text/plain=firefox.desktop
-text/x-markdown=firefox.desktop
+text/x-markdown=nvim-xdg.desktop
+text/markdown=nvim-xdg.desktop
 application/x-shellscript=firefox.desktop
 text/x-java=firefox.desktop
 inode/x-empty=firefox.desktop
@@ -42,3 +43,4 @@ x-scheme-handler/discord=vesktop.desktop
 x-scheme-handler/lunarclient=lunarclient.desktop
 x-scheme-handler/discord-562286213059444737=lunarclient.desktop
 x-scheme-handler/ror2mm=r2modman.desktop
+text/markdown=firefox.desktop

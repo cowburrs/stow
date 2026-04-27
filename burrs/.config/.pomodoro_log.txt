@@ -33,3 +33,6 @@ START OF FILE
 2026-04-27 13:40:35 14:30:37 14:40:37 | subject: Placeholder | work: 50m | rest: 10m
 2026-04-27 14:40:42 15:30:44 15:40:44 | subject: Placeholder | work: 50m | rest: 10m
 2026-04-27 15:40:57 15:56:47 15:57:21 | subject: physics | work: 50m | rest: 10m
+2026-04-27 15:57:22 16:47:24 16:57:25 | subject: physics | work: 50m | rest: 10m
+2026-04-27 16:57:35 17:47:37 17:49:23 | subject: Placeholder | work: 50m | rest: 10m
+2026-04-27 17:49:24 18:39:25 18:49:26 | subject: Placeholder | work: 50m | rest: 10m
