@@ -107,7 +107,8 @@ local returntable = {
 		"engineering self ass(check notes)",
 		"eigenvectors type shit za",
 		"mathtask, may 05 4 pm test",
-		"zotero and anki (latex)",
+		"zotero",
+		"anki",
 	}),
 }
 
