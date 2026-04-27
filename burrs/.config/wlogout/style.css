@@ -32,25 +32,26 @@ button:focus, button:active, button:hover {
 }
 
 #lock {
-    background-image: image(url("./icons/lock.svg"));
+	background-image: url("/home/burrs/.config/wlogout/icons/lock.svg");
+	background-size: 20%;
 }
-
 #logout {
-    background-image: image(url("./icons/logout.svg"));
+    background-image: url("/home/burrs/.config/wlogout/icons/logout.svg");
+	 background-size: 20%;
 }
-
 #suspend {
-    background-image: image(url("./icons/suspend.svg"));
+    background-image: url("/home/burrs/.config/wlogout/icons/suspend.svg");
+	 background-size: 20%;
 }
-
 #hibernate {
-    background-image: image(url("./icons/hibernate.svg"));
+    background-image: url("/home/burrs/.config/wlogout/icons/hibernate.svg");
+	 background-size: 20%;
 }
-
 #shutdown {
-    background-image: image(url("./icons/shutdown.svg"));
+    background-image: url("/home/burrs/.config/wlogout/icons/shutdown.svg");
+	 background-size: 20%;
 }
-
 #reboot {
-    background-image: image(url("./icons/reboot.svg"));
+    background-image: url("/home/burrs/.config/wlogout/icons/reboot.svg");
+	 background-size: 20%;
 }
