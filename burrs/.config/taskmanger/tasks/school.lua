@@ -109,6 +109,7 @@ local returntable = {
 		"mathtask, may 05 4 pm test",
 		"zotero, like set up",
 		"anki",
+		"anki maths",
 	}),
 }
 

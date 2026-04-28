@@ -92,5 +92,7 @@ return {
 		"test1",
 		"test1",
 		"Music task idea(check notes)",
+		"Package all anki addons. (cn)",
+		"remove neovim text wrapper.",
 	}),
 }
