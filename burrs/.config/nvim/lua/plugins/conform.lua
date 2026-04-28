@@ -36,6 +36,7 @@ return {
 				rs = { "rustfmt" },
 				haskell = { "ormolu" },
 				toml = { "taplo" },
+				cs = { "csharpier" },
 			},
 		})
 	end,
