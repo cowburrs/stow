@@ -110,6 +110,8 @@ local returntable = {
 		"zotero, like set up",
 		"anki",
 		"anki maths",
+		"anki engn",
+		"anki comp",
 	}),
 }
 
