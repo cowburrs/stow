@@ -22,6 +22,7 @@
   "pinnedToolbarItems": [
     "logseq-heatmap:heatmap-plugin-open",
     "logseq-git:git",
-    "logseq-anki-sync:logseq-anki-sync"
+    "logseq-anki-sync:logseq-anki-sync",
+    "logseq-pdf-export-plugin:logseq-pdf-export-plugin"
   ]
 }
