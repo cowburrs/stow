@@ -94,5 +94,6 @@ return {
 		"Music task idea(check notes)",
 		"Package all anki addons. (cn)",
 		"remove neovim text wrapper.",
+		"raspberry pi alarm (cn)"
 	}),
 }
