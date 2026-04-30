@@ -112,6 +112,7 @@ local returntable = {
 		"anki maths",
 		"anki engn",
 		"anki comp",
+		"google natural frequency of a pendulum",
 	}),
 }
 
