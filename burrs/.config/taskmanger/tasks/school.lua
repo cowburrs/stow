@@ -30,6 +30,7 @@ local returntable = {
 	oneTimeTask("Engn Team (TMC2)", dt(2026, 5, 25), dt(2026, 6, 1)),
 	oneTimeTask("Cadetship ASD", dt(2026, 11, 1), dt(2027, 3, 1)),
 	oneTimeTask("Math Test", dt(2026, 4, 26), dt(2026, 5, 5)),
+	oneTimeTask("Comp", dt(2026, 5, 1), dt(2026, 5, 16)),
 	{
 		name = function(date, n)
 			return "Math Week " .. (n + 6) .. " Assignment Q/Task"
