@@ -8,6 +8,9 @@
 vim.o.number = true -- Make line numbers default
 vim.o.relativenumber = true
 vim.o.signcolumn = "number"
+
+-- kinda unsafe idk but i like it
+vim.o.exrc = true
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
 -- vim.o.relativenumber = true

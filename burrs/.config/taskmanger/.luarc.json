@@ -1,5 +1,5 @@
 {
   "workspace": {
-    "library": ["/home/burrs/Repositories/Taskmanger/src"]
+    "library": ["~/.local/share/taskmanger/src"]
   }
 }
