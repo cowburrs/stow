@@ -109,6 +109,7 @@ return {
 		"gymtask",
 		"hyprland lua",
 		"sheets pillowcase task",
-		"home manager (cn)"
+		"home manager (cn)",
+		"nvim per project exrc"
 	}),
 }
