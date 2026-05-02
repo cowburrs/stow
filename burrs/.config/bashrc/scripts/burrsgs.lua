@@ -10,13 +10,21 @@ local function gitHasUpdates(path)
 		return tonumber(count) > 0
 	end
 end
+
+local skip
+for index, value in ipairs(arg) do
+	if value == "-y" then
+		skip = true
+	end
+end
+skip = skip or false
 local function check(filepath, name)
 	if run("Fetching " .. name, "bash -c 'git -C $HOME/" .. filepath .. " fetch >/dev/null 2>&1'", "pulse") then
 		local lfs = require("lfs")
 		lfs.chdir(os.getenv("HOME") .. filepath)
 		if gitHasUpdates("$HOME" .. filepath) then
 			print(name .. " needs pull")
-			if os.execute("gum confirm 'do you wish to pull?'") then
+			if skip or os.execute("gum confirm 'do you wish to pull?'") then
 				if not run("Pulling " .. name, "git pull", "pulse") then
 					print("Pull Failed")
 					os.exit(1)
@@ -29,7 +37,7 @@ local function check(filepath, name)
 		if not os.execute("git diff --quiet HEAD $HOME" .. filepath .. " >/dev/null 2>&1") then
 			print(name .. " needs push")
 			if not gitHasUpdates("$HOME" .. filepath) then
-				if os.execute("gum confirm 'Gitshit???'") then
+				if skip or os.execute("gum confirm 'Gitshit???'") then
 					if not run("Shitting out a commit in " .. name, "bash -i -c 'gitshit'", "pulse") then
 						print("Gitshit Failed")
 						os.exit(1)
