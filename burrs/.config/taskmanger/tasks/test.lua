@@ -1,7 +1,6 @@
 local m = require("src.model")
 local funcs = require("src.funcs")
 local st = m.singleTasks
-local td = m.timedelta
 local wt = m.weeklyTask
 local yt = m.yearlyTask
 local wt5 = function(name)
@@ -15,6 +14,7 @@ return {
 	wt5("cut nails"),
 	wt5("clear tabs"),
 	wt5("clean toothbrush"),
+	wt5("laundry"),
 	{
 		name = m.just("Humble Bundle"),
 		conditions = { m.isDayOfWeek(2), m.isWeekOfMonth(1, m.timedelta(0, -17)) },
@@ -27,7 +27,10 @@ return {
 		checkrepeats = m.justRepeats(2),
 		finishdelta = m.just(m.timedelta(0)),
 	},
-	yt("fuck a dick idk"),
+	yt("Firmware Update (fwupd)"),
+	yt("Wash Backpack"),
+	-- m.multiWeekTask("exercise", { 0, 1, 3, 5, 6, 7 }),
+	m.multiWeekTask("exercise", { 0, 1, 3, 5, 6}),
 	st({
 		"Test works",
 		"bin scripts instead of hypr nixos",
@@ -113,6 +116,6 @@ return {
 		"sheets pillowcase task",
 		"home manager (cn)",
 		"nvim per project exrc",
-		"yearly task wash bag"
+		"yearly task wash bag",
 	}),
 }

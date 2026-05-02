@@ -42,3 +42,7 @@ START OF FILE
 2026-04-29 11:51:57 11:51:58 12:06:58 | subject: break | work: 1m | rest: 15m
 2026-04-29 12:17:16 12:42:17 12:44:32 | subject: short | work: 25m | rest: 5m
 2026-04-30 13:07:22 13:07:23 13:17:23 | subject: break | work: 50m | rest: 10m
+2026-05-02 10:23:29 10:23:31 10:23:32 | subject: Placeholder | work: 50m | rest: 10m
+2026-05-02 10:23:35 10:23:36 10:23:36 | subject: science | work: 50m | rest: 10m
+2026-05-02 10:23:39 11:00:08 11:03:24 | subject: maths | work: 50m | rest: 10m
+2026-05-02 11:03:26 11:25:50 11:35:50 | subject: maths | work: 50m | rest: 10m
