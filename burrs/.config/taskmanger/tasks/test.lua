@@ -110,6 +110,7 @@ return {
 		"hyprland lua",
 		"sheets pillowcase task",
 		"home manager (cn)",
-		"nvim per project exrc"
+		"nvim per project exrc",
+		"yearly task wash bag"
 	}),
 }
