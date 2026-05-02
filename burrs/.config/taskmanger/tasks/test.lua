@@ -108,5 +108,6 @@ return {
 		"clean phone (task maybe)",
 		"gymtask",
 		"hyprland lua",
+		"sheets pillowcase task",
 	}),
 }
