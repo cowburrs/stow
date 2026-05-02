@@ -109,5 +109,6 @@ return {
 		"gymtask",
 		"hyprland lua",
 		"sheets pillowcase task",
+		"home manager (cn)"
 	}),
 }
