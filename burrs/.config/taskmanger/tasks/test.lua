@@ -107,5 +107,6 @@ return {
 		"fuck youtube",
 		"clean phone (task maybe)",
 		"gymtask",
+		"hyprland lua",
 	}),
 }
