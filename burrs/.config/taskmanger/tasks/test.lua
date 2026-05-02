@@ -3,6 +3,7 @@ local funcs = require("src.funcs")
 local st = m.singleTasks
 local td = m.timedelta
 local wt = m.weeklyTask
+local yt = m.yearlyTask
 local wt5 = function(name)
 	return wt(name, 5)
 end
@@ -26,6 +27,7 @@ return {
 		checkrepeats = m.justRepeats(2),
 		finishdelta = m.just(m.timedelta(0)),
 	},
+	yt("fuck a dick idk"),
 	st({
 		"Test works",
 		"bin scripts instead of hypr nixos",
