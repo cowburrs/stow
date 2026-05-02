@@ -105,5 +105,7 @@ return {
 		"laundry task",
 		"efficient morning routine",
 		"fuck youtube",
+		"clean phone (task maybe)",
+		"gymtask",
 	}),
 }
