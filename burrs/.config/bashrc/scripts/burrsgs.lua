@@ -20,6 +20,8 @@ local function check(filepath, name)
 				if not run("Pulling " .. name, "git pull", "pulse") then
 					print("Pull Failed")
 					os.exit(1)
+				else
+					print(name .. " Pull Success")
 				end
 			end
 		end
@@ -31,6 +33,8 @@ local function check(filepath, name)
 					if not run("Shitting out a commit in " .. name, "bash -i -c 'gitshit'", "pulse") then
 						print("Gitshit Failed")
 						os.exit(1)
+					else
+						print(name .. " Gitshit Success")
 					end
 				end
 			end
