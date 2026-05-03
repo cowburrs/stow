@@ -13,7 +13,7 @@ nr() {
     trap "kill $keepalive_pid 2>/dev/null; $old_exit_trap" EXIT INT TERM
 
     # Sorry to all the pure purists out there, this is the best way to do your system.
-    nh os test ~/nixos#burrs --impure
+    FLAKE_DIR=~/nixos nh os test ~/nixos#burrs --impure
 
     # Cleanup manually just in case
     kill "$keepalive_pid" 2>/dev/null
@@ -35,7 +35,7 @@ nrs() { # holy vibecoding motherload. sorry about this one
     # Set new trap
     trap "kill $keepalive_pid 2>/dev/null; $old_exit_trap" EXIT INT TERM
 
-    nh os switch ~/nixos#burrs --impure
+    FLAKE_DIR=~/nixos nh os switch ~/nixos#burrs --impure
 
     # Cleanup manually just in case
     kill "$keepalive_pid" 2>/dev/null
@@ -58,7 +58,7 @@ nrlaptop() {
     # Set new trap
     trap "kill $keepalive_pid 2>/dev/null; $old_exit_trap" EXIT INT TERM
 
-    nh os test ~/nixos#laptop --impure
+    FLAKE_DIR=~/nixos nh os test ~/nixos#laptop --impure
 
     # Cleanup manually just in case
     kill "$keepalive_pid" 2>/dev/null
@@ -80,7 +80,7 @@ nrslaptop() {
     # Set new trap
     trap "kill $keepalive_pid 2>/dev/null; $old_exit_trap" EXIT INT TERM
 
-    nh os switch ~/nixos#laptop --impure
+    FLAKE_DIR=~/nixos nh os switch ~/nixos#laptop --impure
 
     # Cleanup manually just in case
     kill "$keepalive_pid" 2>/dev/null
